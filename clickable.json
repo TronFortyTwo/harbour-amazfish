@@ -1,0 +1,14 @@
+{
+	"clickable_minimum_required": "6.12.2",
+	"builder": "qmake",
+	"default": "build",
+	"libraries": {
+		"daemon": {
+			"builder": "qmake",
+			"src_dir": "${ROOT}/daemon/",
+			"dependencies_target": [
+				"qtdeclarative5-dev"
+			]
+		}
+	}
+}
